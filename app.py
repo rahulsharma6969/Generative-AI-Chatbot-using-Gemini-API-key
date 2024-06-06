@@ -9,7 +9,7 @@ from faster_whisper import WhisperModel
 
 warnings.filterwarnings("ignore", message=r"torch.utils._pytree._register_pytree_node is deprecated")
 
-GOOGLE_API_KEY = 'AIzaSyAnrRNGMiUMFYrw0S9ULRz7SSJg4ziZerE'
+GOOGLE_API_KEY = '###'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 generation_config = {
