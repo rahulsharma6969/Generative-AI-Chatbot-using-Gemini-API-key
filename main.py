@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore", message = r"torch.utils._pytree._register_pytr
 from faster_whisper import WhisperModel
 
 
-GOOGLE_API_KEY = 'AIzaSyAnrRNGMiUMFYrw0S9ULRz7SSJg4ziZerE'
+GOOGLE_API_KEY = '###'
 genai.configure(api_key=GOOGLE_API_KEY)
 whisper_size = 'base'
 wake_word = 'gemini'
